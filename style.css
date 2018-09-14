@@ -4,7 +4,7 @@
 }
 
 header {
-    text-align: center;
+
     height: 45vh;
     overflow: hidden;
     position: relative;
@@ -24,4 +24,19 @@ video {
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 20px 0;
+    letter-spacing: 10px;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: arial;
+    font-size: 40px;
 }
