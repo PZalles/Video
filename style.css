@@ -39,4 +39,45 @@ header h1 {
     color: white;
     font-family: arial;
     font-size: 40px;
+    animation: text 12s infinite both;
+}
+
+header h1:nth-of-type(2) {
+    animation-delay: 4s;
+}
+
+header h1:nth-of-type(3) {
+    animation-delay: 8s;
+}
+
+
+
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    3% {
+        opacity: 0;
+    }
+
+    9% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    30.33% {
+        opacity: 0;
+    }
+
+    33.33% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
